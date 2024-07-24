@@ -27,8 +27,7 @@ Application environment variables apply to all services within the application, 
 | ---------------- | ---------------------------------------------------------------------------------------------------------------- |
 | `TZ`             | Inform services of the [timezone](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones) in your location |
 | `SET_HOSTNAME`   | Set a custom hostname on application start. Default is `adguard`.                                                |
-| `DNS_INTERFACES` | Optionally provide a space-separated list of interfaces to bind DNS. For example: `eth0 wlan0 tailscale0`.       |
-| `TS_AUTH_KEY`    | [Tailscale auth key](https://tailscale.com/kb/1085/auth-keys) to join an existing Tailnet. Default is unset.     |
+| `DNS_INTERFACES` | Optionally provide a space-separated list of interfaces to bind DNS. For example: `eth0 wlan0`.       |
 
 ## Usage
 
