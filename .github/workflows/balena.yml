@@ -1,10 +1,8 @@
 name: balena
 
 on:
-  pull_request:
-    types: [opened, synchronize, closed]
-    branches:
-      - main
+  push:
+    branches: [ "main" ]
 
 jobs:
   deploy:
